@@ -1,13 +1,13 @@
-import CarForm from '../lib/CarForm';
+import CharacterForm from '../lib/CharacterForm';
 import SearchForm from '../lib/SearchForm';
 
 export default function Home(props) {
   return (
     <main>
-      <h1>Create a Car</h1>
-      <CarForm />
+      <h1>Create a Character</h1>
+      <CharacterForm />
       <hr />
-      <h1>Find a Car</h1>
+      <h1>Find a Character</h1>
       <SearchForm />
     </main>
   );
